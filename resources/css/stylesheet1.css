@@ -1,0 +1,37 @@
+html {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    font-family: Verdana;
+    font-size: 21px;
+    color: grey;
+}
+
+h4 {
+    color: Aquamarine;
+    font-size: 16px;
+    text-decoration: underline;
+}
+    
+    
+@media only screen and (max-height: 480px), (max-width: 640px) {
+    html {
+	display: flex;
+	flex-shrink: 3;
+	flex-grow: 1;
+	text-align: center;
+	flex-wrap: inline-wrap;
+    }
+
+    embed {
+	width: 240;
+	height: 320;
+	display: flex;
+	flex-wrap: wrap;
+}

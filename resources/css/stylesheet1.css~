@@ -1,0 +1,9 @@
+html {
+    background-color: black;
+}
+
+.logo img {
+    background-color: black;
+    color: black;
+    
+}
